@@ -1,15 +1,15 @@
 {
   "private": true,
-  "name": "tsschema",
-  "displayName": "JSON Typescript Virtual Schema",
-  "description": "Validate JSON with a Typespcript type inside the workspace",
-  "version": "1.0.3",
-  "publisher": "KurtGokhan",
-  "homepage": "https://github.com/KurtGokhan/tsschema",
-  "bugs": "https://github.com/KurtGokhan/tsschema/issues",
+  "name": "gustavotoyota-tsschema",
+  "displayName": "JSON Typescript Virtual Schema (fork)",
+  "description": "Fork of https://github.com/KurtGokhan/tsschema",
+  "version": "1.0.7",
+  "publisher": "gustavotoyota",
+  "homepage": "https://github.com/gustavotoyota/tsschema",
+  "bugs": "https://github.com/gustavotoyota/tsschema/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KurtGokhan/tsschema.git"
+    "url": "https://github.com/gustavotoyota/tsschema.git"
   },
   "keywords": [
     "json",
@@ -52,7 +52,7 @@
     "vsce": "^2.5.1"
   },
   "dependencies": {
-    "typescript": "^4.5.2",
-    "typescript-json-schema": "^0.52.0"
+    "typescript": "^5.0.0",
+    "typescript-json-schema": "^0.63.0"
   }
 }
